@@ -1,5 +1,5 @@
 # Independent Study Web Text
-Abstract: This repository will allow the user to mix and match div. blocks to build a quick web communication similar to an Adobe Spark. https://spark.adobe.com...but through the process the user will learn more about computer science and computer literacy. 
+Abstract: This repository will allow the user to mix and match div. blocks to build a quick web communication similar to an Adobe Spark. https://spark.adobe.com... but through the process the user will learn more about computer science and computer literacy. 
     
 ## Get started!
 
