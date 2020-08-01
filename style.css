@@ -7,7 +7,7 @@ body, html {
 .hero-image {
   /* This is your "hero image" or "wide image." You will need to change feet.jpg to match your asset*/
   
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("feet.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Cathy2.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -43,7 +43,31 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 /* This code controls that cool parallax image and scrolling effect. Change the image "feet4.jpg" below to match your asset.*/
 /*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("feet4.jpg");
+  background-image: url("Cathy6.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* control the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-2 { 
+  background-image: url("Cathy5.jpg");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* control the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-3 { 
+  background-image: url("Cathy.jpg");
 
   /* Set a specific height */
   height: 500px; 
@@ -55,7 +79,18 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   background-size: cover;
 }
 
+.parallax-4 { 
+  background-image: url("Cathy3.jpg");
 
+  /* Set a specific height */
+  height: 500px; 
+
+  /* control the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* This section of css. helps organize images to position and center the image to scale nicely on all screens */
 
 .center-small-image {
@@ -92,9 +127,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 
 .par-centertext {
   margin: auto;
-  width: 50%;
+  width: 80%;
   padding: 100px;
-    font-size: 125%; 
+    font-size: 100%; 
 
 }
 
